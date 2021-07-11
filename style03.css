@@ -1,0 +1,46 @@
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 10px 50px;
+}
+
+.montserrat h1 {
+    text-transform: uppercase;
+}
+
+.calculator {
+    display: break;
+    margin: 0;
+    padding: 0;
+}
+
+.fahcel {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.fahcel .col-2 {
+    width: 250px;
+    margin: 10px auto;
+}
+
+.calculator input[type="text"] {
+    border-radius: 7px;
+    padding: 5px 10px;
+    width: 230px;
+    background: #DCDCDC;
+}
+
+.calculator input[type="submit"] {
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.calculator button.refresh {
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
