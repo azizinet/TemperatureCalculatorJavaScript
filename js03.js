@@ -24,8 +24,8 @@ form.addEventListener('submit', function(event) {
     }
 
     else {
-    alert("Sila letakkan nilai Fahrenheit atau Celsius");
-    event.preventDefault();
+        alert("Sila letakkan nilai Fahrenheit atau Celsius");
+        event.preventDefault();
     }
 });
 
